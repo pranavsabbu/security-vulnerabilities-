@@ -1,0 +1,57 @@
+
+# Using text-babbage-001
+
+List all security vulnerabilities 
+
+compute = input('Your expression? => ')
+if not compute:
+    print ("No input")
+else:
+    print ("Result =", eval(compute))
+
+
+
+-Injection into the input() function
+-Unvalidated input in the eval() function
+-Insecure input in the print("Result =") function
+
+
+# Using text-curie-001
+
+List all security vulnerabilities 
+
+compute = input('Your expression? => ')
+if not compute:
+    print ("No input")
+else:
+    print ("Result =", eval(compute))
+
+Result =
+
+-Insecure direct object references 
+-Insecure session handling 
+-Cross-site scripting 
+-Insecure cookie handling 
+-Insecure password storage 
+-Insecure transmission of data
+
+# Using text-davinci-001
+
+List all security vulnerabilities 
+
+compute = input('Your expression? => ')
+if not compute:
+    print ("No input")
+else:
+    print ("Result =", eval(compute))
+
+1) Code Injection
+2) Buffer Overflow
+3) Cross-Site Scripting (XSS)
+4) Cross-Site Request Forgery (CSRF)
+5) SQL Injection
+6) Session Hijacking
+7) Denial of Service (DoS)
+8) Man-in-the-Middle (MitM)
+9) Password Cracking
+10) Phishing
